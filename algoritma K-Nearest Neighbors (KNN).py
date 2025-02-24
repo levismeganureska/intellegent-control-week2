@@ -10,7 +10,7 @@ import joblib
 # Load dataset dari file CSV
 color_data = pd.read_csv('colors.csv')
 X = color_data[['R', 'G', 'B']].values
-y = color_data['color_name'].values
+y = color_data['color_name'].values 
 
 # Normalisasi data
 scaler = StandardScaler()
